@@ -5,8 +5,8 @@ import (
 	"log"
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/tracydota/video_server/api/defs"
-	"github.com/tracydota/video_server/api/utils"
+	"video_server/api/defs"
+	"video_server/api/utils"
 )
 
 

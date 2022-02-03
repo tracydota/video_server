@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"io/ioutil"
 	"github.com/julienschmidt/httprouter"
-	"github.com/avenssi/video_server/api/defs"
-	"github.com/avenssi/video_server/api/dbops"
-	"github.com/avenssi/video_server/api/session"
+	"video_server/api/defs"
+	"video_server/api/dbops"
+	"video_server/api/session"
 )
 
 func CreateUser(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
