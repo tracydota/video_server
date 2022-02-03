@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 	"github.com/julienschmidt/httprouter"
-	"github.com/tracydota/video_server/scheduler/taskrunner"
+	"video_server/scheduler/taskrunner"
 )
 
 func RegisterHandlers() *httprouter.Router {
